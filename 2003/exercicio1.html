@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        console.log("Botão da caridade!");
+        //window.alert("Olá mundo");
+        function trocaTexto() {
+            document.getElementById('para').innerHTML = 'Obrigado por clicar neste botão, voce acaba de CONTRIBUIR com R$ 0,25 para a instituição de caridade!'
+        }
+    </script>
+
+    <p id="para">Se possível, clique neste botão little gafanhoto!</p>
+    <button onclick="trocaTexto()">Botão da caridade!</button>
+
+</body>
+
+</html>

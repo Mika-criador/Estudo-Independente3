@@ -1,0 +1,48 @@
+body {
+color: white;
+background-color: black;
+}
+
+ul  {
+display: flex;
+justify-content: space-between;
+list-style-type: none;
+align-items: center;
+padding: 16px
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+img{
+width: 150px;
+height: 150px;
+border-radius: 50%;
+border: 5px solid aqua;
+}
+
+
+.img {
+    width: 400px; 
+    height: 300px; 
+}
+
+
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    color:aqua;
+}
+
+.container{
+    padding: 0px 50px;
+}
+nav a:hover {
+    color: aqua;
+}

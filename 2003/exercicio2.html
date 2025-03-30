@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="aumentar()">+</button>
+    <span id="numero">0</span>
+    <button onclick="diminuir()">-</button>
+
+    <script>
+        var numero = 0;
+        function aumentar (){
+            numero++;
+            document.getElementById("numero").innerHTML=numero
+
+        }
+
+        var numero = 0;
+        function diminuir (){
+            numero--;
+            document.getElementById("numero").innerHTML=numero
+        }
+        </script>
+    
+</body>
+</html>
